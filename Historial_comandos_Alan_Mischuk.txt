@@ -1,0 +1,47 @@
+ls -l
+cd repogit/
+ls -l
+cd TP_AySO/
+ls -l
+grep 'model name' /proc/cpuinfo | head -n 1 >> datos_usuario.txt 
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "feat: Añadiendo información de CPU"
+git status
+man sort 
+grep -v '/sbin/nologin' /etc/passwd | sort -t ':' -k 7 | head -n 10 > lista_ordenada
+cat lista_ordenada 
+git add .
+git commit  -m "ADD:Listado de usuaros ordenada"
+git status
+echo "dump traffic" > dump traffic
+echo "tcpdump -i <interfaz>" >> comando_dump_net
+cat comando_dump_net
+echo "dump traffic" >> dump traffic
+cat comando_dump_net
+echo "dump traffic" > "dump traffic"
+cat comando_dump_net 
+echo "dump traffic" 
+echo "dump traffic" > comando_dump_net 
+cat comando_dump_net 
+echo "tcpdump -i <interfaz>" >> comando_dump_net
+cat comando_dump_net 
+ls -l
+rm dump
+rm 'dump traffic' 
+ls -l
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+cat << EOF >> README.md
+Alumno: Alan Simon Mischuk
+División: División 1?
+Turno: Noche 
+EOF
+
+cat README.md 
+git add README.md
+git commit -m "docs: agregar información personal al README.md"
+git status 
+git log
+history -a
