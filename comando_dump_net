@@ -1,0 +1,2 @@
+dump traffic
+tcpdump -i <interfaz>
